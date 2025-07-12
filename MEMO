@@ -1,0 +1,19 @@
+
+  "dependencies": {
+    "mxgraph-es6-gs": "https://github.com/devg1120/mxgraph-es6-gs"
+  }
+
+vite
+$ cat vite.config.js 
+export default  {
+  root: 'src/grapheditor'
+}
+
+
+
+npx vite -v
+vite/5.4.19 linux-x64 node-v20.11.1
+
+npm run dev
+open http://127.0.0.1
+
